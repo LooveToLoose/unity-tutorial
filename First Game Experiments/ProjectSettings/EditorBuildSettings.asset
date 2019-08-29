@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Game 1.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
     path: Assets/Scenes/Game 2.unity
     guid: d249318dba6796e4bb180a2b7e44cde0
   - enabled: 0
@@ -26,7 +23,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Game 4 - lvl 2.unity
     guid: 866417c55e6ce6e4faf2de0939ccc726
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game 6.unity
     guid: 283a73d8049cfee4ebddf16e3ef4d978
+  - enabled: 0
+    path: Assets/Scenes/Animation 1.unity
+    guid: d0922777dfbf4d542a8063db07e02a5c
+  - enabled: 1
+    path: Assets/Scenes/Game 7.unity
+    guid: 4cad8cbf07938c943b08ee1ab9dc2369
   m_configObjects: {}
