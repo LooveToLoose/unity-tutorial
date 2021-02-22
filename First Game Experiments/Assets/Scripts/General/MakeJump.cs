@@ -12,6 +12,9 @@ public class MakeJump : MonoBehaviour
 
     bool onTheGround = true;
 
+    float jumpXVelocity = 0;
+    float jumpZVelocity = 0;
+
     private void OnCollisionEnter(Collision collision)
     {
         onTheGround = true;
@@ -23,6 +26,13 @@ public class MakeJump : MonoBehaviour
         if (Input.GetKey(jumpKey) && onTheGround) {
             GetComponent<Rigidbody>().velocity += new Vector3(0, jumpForce, 0);
             onTheGround = false;
+            jumpXVelocity = GetComponent<Rigidbody>().velocity.x;
+            jumpZVelocity = GetComponent<Rigidbody>().velocity.z;
         }
+
+        if(!onTheGround){
+            GetComponent<Rigidbody>().velocity = new Vector3(jumpXVelocity, GetComponent<Rigidbody>().velocity.y, jumpZVelocity);
+        }
+        
     }
 }
