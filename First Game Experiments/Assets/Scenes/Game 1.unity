@@ -3225,7 +3225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f33e17aaa93adc641b935f00525046c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 5
+  jumpForce: 7
   jumpKey: 32
 --- !u!1 &287299122
 GameObject:
